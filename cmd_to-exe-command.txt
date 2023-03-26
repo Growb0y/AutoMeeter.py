@@ -1,0 +1,1 @@
+pyinstaller -F --onefile --hidden-import plyer.platforms.win.notification --windowed --add-data "data.db;data.db" --add-data "icons;icons" --icon "logo.ico" AutoMeeter.py
